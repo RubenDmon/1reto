@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+/* main  > *{
+    margin:0;
+    padding:0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+}  */
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    /* font-family: 'Montserrat'; */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+.card{
+    /* la diferencia debe ser de 100 px */
+    width: 76.26vh;
+    height: 56.26%;
+    display: flex;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center;  */
+    /* position:fixed;
+    top: 10rem; 
+    left: 20rem; */
+
+}
+.card .info{
+    display: flex;
+    flex-direction: column;
+    padding:1.8rem;
+
+}
+.card .info #M700{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    letter-spacing: 4.5px; 
+    color:grey;
+    vertical-align: top;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    
+}
+.card .info #Fra700{
+    font-family: 'Fraunces', serif;
+    font-size: 31px;
+    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); */
+    margin:1rem;
+    margin-left: 0;
+    margin-right: 1.5rem;
+    line-height: 1.8rem; 
+}
+.card .info #M500{
+    font-family: 'Montserrat', sans-serif;
+    color:grey;
+    text-shadow: 0.1px 0.1px 0.1px grey;
+    font-size: 13px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-right: 0.4rem;
+    text-align: left;
+    /* word-spacing:-1px; */
+    /* letter-spacing: -0.1px; */
+    line-height: 1.3rem; 
+    font-weight: normal;
+}
+.card #ima{
+    height: auto; 
+    width: 50%;
+    border-top-left-radius:0.5rem ;
+    border-bottom-left-radius:0.5rem ;
+}
+  
+.Prices{
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+  /* justify-content: center; */
+  height: 83.2px;
+  width: 200.5px;
+    
+}
+.Prices #Price{
+    font-family: 'Fraunces', serif;
+    color:hsl(158, 36%, 37%);
+    font-size: 1.8rem;
+}
+.Prices #nPrice{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    margin-left: 1rem;
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: rgba(128, 128, 128, 0.781); /* Color de la línea */
+    text-decoration-thickness: 1px; /* Grosor de la línea */
+    color:grey;
+    
+
+}
+
+.card .info button{
+padding-block: 1.2rem ;
+
+border-radius: 0.5rem;
+height: 2.9rem;
+
+background-color: hsl(158, 36%, 37%);
+font-size: 13px;
+display: flex;
+align-items: center;
+border: none;
+justify-content: center;
+color:hsl(0, 0%, 100%);
+font-weight: bold;
+/*  */
+/* transition-property:background-color,font-size; */
+transition-property: all ;
+transition-duration: 2s;
+/* transition-delay: 2s; */
+cursor: pointer;
+/* transition-timing-function: 1s; */
+}
+.card .info button #ic{
+    width: 14px; /* Ancho del icono */
+    height: 14px;
+    margin-right: 0.5rem;
+} 
+.card .info button:hover{
+    background-color:hsl(158, 36%, 46%);
+    color: beige;
+}
+
+
